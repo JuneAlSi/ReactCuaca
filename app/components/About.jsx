@@ -13,7 +13,10 @@ var React = require('react');
 // With arror Function
 var About = (props) => {
   return (
-    <h3>About Component</h3>
+    <div>
+      <h3>About </h3>
+      <p>This is about Weather.</p>
+    </div>
   )
 };
 
