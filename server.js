@@ -12,8 +12,8 @@ app.use(function (req, res, next){
   }
 });
 
-app.use(express.static(__dirname + 'public'));
+app.use(express.static('public'));
 
 app.listen(port, function () {
-  console.log('Express server is up http://localhost:3000 ' + port);
+  console.log('Express server is up on port ' + port);
 });
