@@ -12,7 +12,7 @@ var React = require('react');
 // With arrow function
 var Example = (props) => {
   return (
-    <h3>Example Component</h3>
+    <h3>Example Component!</h3>
   )
 };
 
